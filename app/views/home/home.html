@@ -1,0 +1,64 @@
+<div class="wrapper">
+	<div class="header">
+		<nav class="navbar navbar-default navbar-fixed-top" id="navbar">
+			<div class="container">
+				<div class="navbar-header">
+					<button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar"> <span class="icon-bar"></span> <span class="icon-bar"></span> <span class="icon-bar"></span> </button>
+					<a class="navbar-brand" href="#"> <img src="app/images/logo-h.png" class="img-responsive" id="logo"> </a>
+				</div>
+				<div class="collapse navbar-collapse" id="myNavbar">
+					<ul class="nav navbar-nav">
+						<li class="active"><a href="#">Home</a></li>
+						<li><a href="#">About Us</a></li>
+						<li><a href="#">Online Payments</a></li>
+						<li><a href="#">Contact Us</a></li>
+						<li><a href="#">Clients</a></li>
+						<li><a ui-sref="login">Login / Register </a></li>
+					</ul>
+					<ul class="nav navbar-nav navbar-right">
+						<li>
+							<a href="#"> <i class="fa fa-whatsapp" aria-hidden="true" id="nav-fa"></i> 9154 84 84 84 </a>
+						</li>
+						<li>
+							<a href="#"> <i class="fa fa-phone" aria-hidden="true" id="nav-fa"></i> 040 6641 6651 </a>
+						</li>
+					</ul>
+				</div>
+			</div>
+		</nav>
+	</div>
+	<div ui-view>	</div>
+	<div id="slider">
+		<div class="container-fluid">
+			<div class="row">
+				<div class="col-md-4 col-sm-4 col-xs-4"> <img src="app/images/food.png" class="img-responsive" id="food" /> </div>
+				<div class="col-md-4 col-sm-4 col-xs-4">
+					<a ui-sref="auth.home"><img src="app/images/corporate.png" class="img-responsive" id="corporate" /> </a>
+				</div>
+				<div class="col-md-4 col-sm-4 col-xs-4">
+				<img src="app/images/groceries.png" class="img-responsive" id="groceries"  />
+				</div>
+			</div>
+		</div>
+	</div>
+	<div id="footer">
+		<div class="container">
+			<div class="row">
+				<div class="col-md-6">
+					<li class="footer-links-1"> Terms &amp Conditions </li>
+					<li class="footer-links"> Priacy </li>
+					<li class="footer-links"> Cancellation &amp Refund </li>
+					<li class="footer-links"> Delivery </li>
+					<li class="footer-links"> Security </li>
+				</div>
+				<div class="col-md-2"> </div>
+				<div class="col-md-4">
+					<ul class="jkc-1">
+						<li id="copy"> © Copyright 2016.Powered By </li>
+						<li id="jkc"><a href="http://www.jkctechnosoft.com/" target="_blank"> JKC Technosoft </a> </li>
+					</ul>
+				</div>
+			</div>
+		</div>
+	</div>
+</div>

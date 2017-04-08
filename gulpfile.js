@@ -5,7 +5,7 @@ gulp.task("serve", function () {
         server: {
             baseDir: './',
         },
-        port: 6000
+        port: 5000
     })
     gulp.watch(["*.html", "./*.html", "../**/*.html"]);
 });
